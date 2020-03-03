@@ -1,0 +1,26 @@
+Aplicação python +  Flask
+
+Requisitos:
+python3
+pip3
+python3-venv
+
+Criar ambiente virtual:
+python3 -m venv venv
+
+Entrar no ambiente:
+source venv/bin/activate
+
+Dependências:
+pip3 install Flask
+pip3 install flask-sqlalchemy
+pip3 install pymysql
+
+Exportar dependencias para arquivo:
+cat requirements.txt
+
+Instalar dependências:
+pip3 install -r requirements.txt
+
+
+
